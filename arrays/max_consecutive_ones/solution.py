@@ -10,3 +10,6 @@ for i in range(len(nums)):
     else:
         count=0
 print(max)                
+
+ #tc:O(n)
+ #sc:O(1)
