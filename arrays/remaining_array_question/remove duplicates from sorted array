@@ -1,0 +1,12 @@
+def duplicate(nums):
+    # //i is trcaking index of last unique element
+    i=0 
+    # //next elements till n-1
+    j=1        
+    while j<len(nums):
+        if nums[j]!=nums[i]:
+            i=i+1
+            nums[i]=nums[j]
+        j=j+1
+    return i+1       
+print(duplicate([1,1,2,2,3]))
